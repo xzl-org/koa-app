@@ -2,10 +2,15 @@
   "name": "koa-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "demo": "node src/demo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "Koa",
+    "Node"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/xzl-org/koa-app.git"
@@ -17,6 +22,8 @@
   },
   "homepage": "https://github.com/xzl-org/koa-app#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs.promised": "^3.0.0",
     "koa": "^2.13.1"
   }
 }
