@@ -1,4 +1,5 @@
 require('dotenv').config(); // As early as possible in your application, require and configure dotenv.
+const port = process.env.PORT || 8000;
 const fs = require('fs');
 const Koa = require('koa');
 const path = require('path');
@@ -10,6 +11,6 @@ const main = ctx => {
 };
 
 app.use(main);
-app.listen(8000, () => {
-  console.log('Server is running at PORT ' + process.env.PORT)
+app.listen(port, () => {
+  console.log('Server is running at http://localhost:' + port)
 });
