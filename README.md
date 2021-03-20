@@ -6,6 +6,7 @@
 
 ```bash
 git clone git@github.com/xzl-org/koa-app.git
+echo "PORT=8000" > ./.env
 yarn
 yarn demo # localhost:8000
 ```
