@@ -1,3 +1,8 @@
+# Custom
+package-lock.json
+*.lock
+.idea
+
 # Logs
 logs
 *.log
@@ -102,5 +107,3 @@ dist
 
 # TernJS port file
 .tern-port
-package-lock.json
-*.lock
