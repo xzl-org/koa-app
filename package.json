@@ -1,0 +1,22 @@
+{
+  "name": "koa-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xzl-org/koa-app.git"
+  },
+  "author": "stefango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xzl-org/koa-app/issues"
+  },
+  "homepage": "https://github.com/xzl-org/koa-app#readme",
+  "dependencies": {
+    "koa": "^2.13.1"
+  }
+}
