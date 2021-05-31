@@ -10,6 +10,17 @@ const main = serve(path.join(__dirname, './assets'));
 
 app.use(main);
 
+// app.use((ctx, next) => {
+//   return next().then(() => {
+//     const { request, response } = ctx;
+//     ctx.status = ctx.response;
+//     ctx.body = `Try ${request.url}`
+//     console.log('then request', request);
+//     console.log('###');
+//     console.log('then response', response);
+//   })
+// })
+
 app.listen(port, () => {
   console.log('Server is running at http://localhost:' + port)
 });
